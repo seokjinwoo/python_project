@@ -7,7 +7,7 @@ from pandas import json_normalize
 import requests
 
 
-url0 = "http://ecos.bok.or.kr/api/StatisticSearch/5FVJPPLE5911DQM1JTPX/json/kr/1/300/010Y002/MM/201101/202202/AAAA11"
+url0 = "http://ecos.bok.or.kr/api/StatisticSearch/idkey/json/kr/1/300/010Y002/MM/201101/202202/AAAA11"
 
 response = requests.get(url0).text
 
